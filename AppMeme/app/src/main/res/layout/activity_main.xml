@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/imagememe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ImageView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="683dp"
+            android:onClick="nxt_btn"
+            android:gravity="bottom"
+            android:text="Next">
+
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="683dp"
+            android:layout_marginLeft="280dp"
+            android:text="Share"
+            android:onClick="share_btn"
+            android:gravity="bottom">
+
+        </Button>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

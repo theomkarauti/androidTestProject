@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/editbox_background_normal"
+    android:elevation="20dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/fst"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="@drawable/background_top">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="128dp"
+            android:layout_height="71dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-17dp"
+            android:layout_marginEnd="146dp"
+            android:layout_marginBottom="162dp"
+            android:layout_toStartOf="@+id/imageView"
+            app:srcCompat="@mipmap/line" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="115dp"
+            android:layout_height="183dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="58dp"
+            app:srcCompat="@mipmap/topicon" />
+
+        <TextView
+            android:layout_width="261dp"
+            android:layout_height="99dp"
+            android:layout_alignParentStart="false"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="32dp"
+
+            android:layout_marginBottom="81dp"
+            android:layout_toStartOf="@+id/imageView"
+            android:fontFamily="@font/mulish_semibold"
+
+            android:text="Dashboard Menu"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+
+            android:textSize="35dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bgrectangle"
+        android:elevation="20dp"
+        android:fontFamily="@font/mulish_semibold"
+        android:textAlignment="center"
+android:id="@+id/search_bar"
+        android:hint="search here..."
+        android:textSize="32dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/topicon"
+            android:layout_marginTop="280dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click me.."
+            android:textStyle="bold"
+            android:fontFamily="@font/mulish_semibold"
+            android:layout_marginLeft="45dp"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+
+
+
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
